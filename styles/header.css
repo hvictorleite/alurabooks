@@ -24,12 +24,37 @@
     padding: 1em;
 }
 
-.lista-menu {
+.container__botao{
     display: none;
+}
+
+.lista-menu {
     position: absolute;
     top: 100%;
+    width: 60vw;
+    max-height: 0;
+    overflow: hidden;
+    transition: .5s;
 }
 
 .container__botao:checked ~ .lista-menu {
-    display: block;
+    max-height: 300px;
+}
+
+.lista-menu__titulo, .lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.lista-menu__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
