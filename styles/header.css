@@ -38,7 +38,7 @@
 }
 
 .container__botao:checked ~ .lista-menu {
-    max-height: 300px;
+    max-height: 600px;
 }
 
 .lista-menu__titulo, .lista-menu__item {
