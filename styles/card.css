@@ -9,15 +9,15 @@
     row-gap: 1em;
 }
 
-.card--linha {
+.card__linha {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
- 
-.card__subtitulo, .card__titulo, .card__descricao {
-    padding: 0 0.5em 0.5em 0;
+
+.card__subtitulo, .card__titulo, .card__descricao, .card__estrelas {
+    padding: 0 1em 0.8em 0;
 }
 
 .card__subtitulo {

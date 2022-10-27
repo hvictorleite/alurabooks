@@ -66,10 +66,12 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide"><img src="img/livros/Acessibilidade.svg" alt="Livro Acessibilidade na Web da AluraBooks"></div>
-                <div class="swiper-slide"><img src="img/livros/Gestão.svg" alt="Livro Gestão de Produtos, Startup e Liderança de Produtos Digitais da AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/livros/Nodejs.svg" alt="Livro Node.js da AluraBooks"></div>
                 <div class="swiper-slide"><img src="img/livros/MEAN.svg" alt="Livro MEAN da AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/livros/Gestão.svg" alt="Livro Gestão de Produtos, Startup e Liderança de Produtos Digitais da AluraBooks"></div>
                 <div class="swiper-slide"><img src="img/livros/Portugol.svg" alt="Livro Portugol da AluraBooks"></div>
                 <div class="swiper-slide"><img src="img/livros/ApacheKafka.svg" alt="Livro Apache Kafka e Spring Boot da AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/livros/Angular.svg" alt="Livro Angular 11 e Firebase da AluraBooks"></div>
             </div>
         
             <!-- If we need navigation buttons -->
@@ -81,7 +83,7 @@
     </section>
 
     <div class="card">
-        <div class="card--linha">
+        <div class="card__linha">
             <div class="card__texto">
                 <h4 class="card__subtitulo">Talvez você também se interesse por...</h4>
                 <h3 class="card__titulo">Angular 11 e Firebase</h3>
@@ -89,7 +91,7 @@
             </div>
             <img src="img/Angular-logo.svg" class="card__imagem" alt="Logotipo Angular 11">
         </div>
-        <div class="card--linha">
+        <div class="card__linha">
             <div class="card__links">
                 <a href="#"><img src="img/Favoritos.svg" class="card__imagem-link" alt="Meus favoritos"></a>
                 <a href="#"><img src="img/Compras.svg" class="card__imagem-link" alt="Carrinho de compras"></a>
@@ -97,7 +99,59 @@
             <a href="#" class="card__botao">Saiba mais</a>
         </div>
     </div>
+    
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais Vendidos</h2>
 
+        <!-- Slider main container -->
+        <div class="swiper">
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/livros/MetricasAgeis.svg" alt="Livro Métricas Ágeis da AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/livros/Javascript.svg" alt="Livro Javascript Assertivo da AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/livros/Arquitetura.svg" alt="Livro Arquitetura de Softwawre distribuido da AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/livros/Guia Front-end.svg" alt="Livro Guia Front-End da AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/livros/Liderança.svg" alt="Livro Lideranças em Design da AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/livros/ReactNative.svg" alt="Livro React Native da AluraBooks"></div>
+            </div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+    </section>
+
+    <div class="card">
+        <div class="card__linha">
+            <div class="card__texto">
+                <div class="card__estrelas">
+                    <img src="img/Star.svg" class="estrela__imagem" alt="Estrela 1">
+                    <img src="img/Star.svg" class="estrela__imagem" alt="Estrela 2">
+                    <img src="img/Star.svg" class="estrela__imagem" alt="Estrela 3">
+                    <img src="img/Star.svg" class="estrela__imagem" alt="Estrela 4">
+                    <img src="img/Star.svg" class="estrela__imagem" alt="Estrela 5">
+                </div>
+                <h4 class="card__subtitulo">Autora do Mês</h4>
+                <h3 class="card__titulo">Juliana Agarikov</h3>
+                <p class="card__descricao">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+            </div>
+            <img src="img/Perfil-escritora 1.svg" class="card__imagem" alt="Logotipo Angular 11">
+        </div>
+        <div class="card__linha">
+            <div class="card__links">
+                <a href="#"><img src="img/Favoritos.svg" class="card__imagem-link" alt="Meus favoritos"></a>
+                <a href="#"><img src="img/Compras.svg" class="card__imagem-link" alt="Carrinho de compras"></a>
+            </div>
+            <a href="#" class="card__botao">Saiba mais</a>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
