@@ -1,0 +1,51 @@
+.card {
+    margin: 1em;
+    padding: 1em 1em;
+    background-color: var(--branco);
+    border-radius: 15px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 1em;
+}
+
+.card--linha {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.card__subtitulo, .card__titulo, .card__descricao {
+    padding: 0 0.5em 0.5em 0;
+}
+
+.card__subtitulo {
+    color: var(--laranja);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card__titulo {
+    font-size: 18px;
+    color: var(--azul);
+    font-weight: 700;
+}
+
+.card__descricao {
+    font-size: 14px;
+    color: var(--preto);
+}
+
+.card__imagem-link {
+    margin: 0 1em 0 0;
+}
+
+.card__botao {
+    background-color: var(--laranja);
+    color: var(--branco);
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.7em 2.2em;
+}
