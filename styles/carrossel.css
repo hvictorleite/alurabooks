@@ -8,6 +8,10 @@
     padding: 1em 0em 0.5em 0;
 }
 
+.swiper, .swiper-wrapper {
+    z-index: 0; /* Para permitir que o menu do cabeçalho sobreponha o carrossel do Swiper.JS */
+}
+
 .swiper-slide img {
     width: 100%;
 }
