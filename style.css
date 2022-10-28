@@ -4,13 +4,16 @@
 @import url("styles/card.css");
 @import url("styles/topicos.css");
 @import url("styles/contato.css");
+@import url("styles/rodape.css");
 
 :root {
     --cor-fundo: #EBECEE;
+    --cor-fundo-rodape: #F9F9F9;
     --branco: #FFFFFF;
     --preto: #000000;
     --laranja: #EB9B00;
     --azul: #002F52;
+    --cinza: #858585;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
 }
