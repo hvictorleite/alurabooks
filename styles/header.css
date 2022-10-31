@@ -25,7 +25,7 @@
 }
 
 .container__botao{
-    /* display: none; */
+    display: none;
 }
 
 .cabecalho__titulo {
@@ -105,6 +105,10 @@
     .nav__link:hover {
         color: var(--branco);
         background: var(--azul-degrade);
+    }
+
+    .lista-menu {
+        width: auto;
     }
     
     .nav__link-categorias:hover~.lista-menu {
