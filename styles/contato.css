@@ -40,7 +40,7 @@
     .contato { 
         display: flex;
         align-items: center;
-        padding: 1em 5em;
+        padding: 1em 10em;
     }
 
     .contato__titulo {
