@@ -78,6 +78,10 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .cabecalho {
         padding: 0 3em;
@@ -117,5 +121,23 @@
 
     .container__imagem-transparente {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    
+    .container__texto {
+        display: block;
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .lista__nav {
+        margin-right: auto;
     }
 }
