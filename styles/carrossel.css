@@ -39,8 +39,6 @@
         width: 70%;
     }
 
-
-
     .swiper-slide img {
         width: 60%;
     }
@@ -48,8 +46,21 @@
     .swiper-button-prev, .swiper-button-next {
         display: block;
     }
+}
 
-    @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1728px) {
         
+    .carrossel__container {
+        display: flex;
+        margin: 3em 15vw;
     }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 70%;
+    }
+
 }
