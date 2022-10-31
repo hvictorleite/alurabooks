@@ -48,6 +48,14 @@
     z-index: 1; /* Para sobrepor o carrossel do Swiper.JS */
 }
 
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer {
+    background-image: url("../img/Menu-Aberto.svg");
+}
+
+.container__botao:checked ~ .container__rotulo {
+    background: var(--azul-degrade);
+}
+
 .container__botao:checked ~ .lista-menu {
     max-height: 600px;
 }
