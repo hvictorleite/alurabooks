@@ -52,3 +52,11 @@
         width: 50%;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 2em 20vw;
+        justify-content: center;
+        column-gap: 4em;
+    }
+}
